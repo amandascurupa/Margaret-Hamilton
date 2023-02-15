@@ -9,7 +9,7 @@ def doutorado():
 
 
 def contribuicoes():
-    mensagem = "Uma das formas de reconhecimento dessa incrível trajetória a levou a ser honrada em 2016 com a medalha Presidencial da Liberdade pelo ex-presidente Barack Obama (Estados Unidos). Na ocasião foi dado destaque ao trabalho de desenvolvimento do software de voo da Apollo 11 da NASA, mas certamente todo conhecimento adquirido anteriormente por ela contribuiu para o fato específico da Apolo 11. As descobertas não são insights momentâneos, ainda que pareçam. São construções ao longo do tempo, e, quase sempre, coletivas."
+    mensagem = "Na década de 60 Margaret passou a trabalhar para a NASA no projeto que levaria o ser humano à Lua, a missão espacial Apollo 11. Seu cargo era importante, ela era a diretora e supervisora dos programas de software dessa missão."
     return mensagem
 
 
@@ -19,7 +19,7 @@ def artigos():
 
 
 def citacoes():
-    mensagem = "O que eles faziam quando você começava nessa organização era colocar você em um projeto que ninguém tinha conseguido ainda entender, ou sequer fazer algo funcionar. Quando eu comecei, eles me colocaram nesse projeto também. Era um código complicado e a pessoa que primeiro escreveu o software se orgulhava do fato que todos os comentários estavam em Grego ou Latim. Então me colocaram nesse projeto, e eu consegui fazer ele funcionar. Eu até imprimi as respostas em Grego e Latim. Eu fui a primeira que conseguiu fazer o projeto funciona - Margaret Hamilton"
+    mensagem = "A alunissagem (aterrissagem em solo lunar) teve complicações. Segundo Margaret, o ocorrido foi o seguinte: \n'Devido a um erro na lista de comandos, o interruptor do radar de aproximação ficou na posição errada. Isso fez com que ele mandasse sinais errados para o computador. O resultado foi que o computador estava sendo requisitado a executar todas as suas funções normais para o pouso ao mesmo tempo que recebia uma carga extra de dados espúrios que usavam 15% do seu tempo. O computador (ou melhor, o software) foi inteligente o suficiente para reconhecer que estava sendo requisitado a executar mais tarefas do que devia. Então ele mandou um alarme, que queria dizer ao astronauta 'Eu estou sobrecarregado com mais tarefas do que devia estar fazendo agora e vou manter só as tarefas mais importantes'... Na verdade, o computador foi programado para mais do que reconhecer condições de erro. Um conjunto completo de programas de recuperação estava incorporado no software. A ação do software, neste caso, foi eliminar tarefas de baixa prioridade e restabelecer as mais importantes ... Se o computador não tivesse reconhecido esse problema e se recuperado, duvido que a Apolo 11 tivesse pousado na lua com sucesso.'"
     return mensagem
 
 
@@ -33,7 +33,7 @@ def erro():
     return mensagem
 
 
-print("\nBoa noite! Você está aprendendo sobre Margaret Heafield Hamilto.\n")
+print("\nBoa noite! Você está aprendendo sobre Margaret Heafield Hamilton.\n")
 
 continuar = True
 while continuar == True:
